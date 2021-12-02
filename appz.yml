@@ -13,7 +13,6 @@ build:
     
 deploy:
   context: francisjoy/DEV
-  type:  deployment
   replicas: 1
   port:
   - 9000
