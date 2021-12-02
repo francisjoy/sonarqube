@@ -29,7 +29,7 @@ properties:
   SONAR_USER_USERNAME: eclouduser
   SONAR_USER_PASSWORD: 
     vault: SONAR_USER_PASSWORD
-  SONAR_JDBC_URL: jdbc:postgresql://postgres-sonarqube-13-3:5432/sonarnew?schema=sonarschema
+  SONAR_JDBC_URL: jdbc:postgresql://postgres-sonarqube-13-3:5432/sonar?schema=sonarqubeschema
   SONAR_JDBC_USERNAME: sonaradmin
   SONAR_JDBC_PASSWORD: 
     vault: SONAR_JDBC_PASSWORD
