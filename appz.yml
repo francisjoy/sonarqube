@@ -13,7 +13,7 @@ build:
     
 deploy:
   context: francisjoy/DEV
-  type:  sonarqube8
+  type:  deployment
   replicas: 1
   port:
   - 9000
