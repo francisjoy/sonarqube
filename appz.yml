@@ -1,7 +1,7 @@
 app:
   name: SonarQube
   code: SonarQube 
-  notify: appzdev@cloudbourne.co
+  notify: fjoy@ecloudcontrol.com
     
 build:
   version: 8.2
@@ -12,14 +12,14 @@ build:
   image_name: ea-shareservices/sonarqube
     
 deploy:
-  context: EA-SharedServices/DEV
+  context: francisjoy/DEV
   type:  sonarqube8
   replicas: 1
   port:
   - 9000
     
 monitor:
-  notify: appzops@cloudbourne.co      
+  notify: francisjoy3@gmail.com      
     
 properties:
   SONAR_WEB_CONTEXT: /sonarqube
