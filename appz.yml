@@ -9,6 +9,12 @@ build:
   build_file: none
   output_files: output/*.zip
   image_template: sonarqube_azl-8.2
+  args:
+      SONARQUBE: enabled
+      SONAR_LOGIN_TOKEN: $${build.token.sonar}
+      SONAR_HOST_URL: https://francisjoy-dev-sonarqube-8-2.038c839d.lowtouch.cloud
+      SONAR_PROJECT_NAME: appzproject
+      SONAR_PROJECT_KEY: appzkey
       
 deploy:
   context: francisjoy/DEV
