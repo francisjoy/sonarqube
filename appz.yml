@@ -11,7 +11,8 @@ build:
   image_template: sonarqube_azl-8.2
   args:
       SONARQUBE: enabled
-      SONAR_LOGIN_TOKEN: $${build.token.sonar}
+      #SONAR_LOGIN_TOKEN: $${build.token.sonar}
+      SONAR_LOGIN_TOKEN: 6337b59d4516c84fac0f8010e3d22f7f7a665016
       SONAR_HOST_URL: https://francisjoy-dev-sonarqube-8-2.038c839d.lowtouch.cloud
       SONAR_PROJECT_NAME: appzproject
       SONAR_PROJECT_KEY: appzkey
