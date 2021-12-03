@@ -21,7 +21,7 @@ monitor:
     
 properties:
   sonar.forceAuthentication: true
-  SONAR_ADMIN_USERNAME: ecloudsys
+  SONAR_ADMIN_USERNAME: sonaradmin
   SONAR_ADMIN_PASSWORD:
     vault: SONAR_ADMIN_PASSWORD
   SONAR_USER_USERNAME: eclouduser
